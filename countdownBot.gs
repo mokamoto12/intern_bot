@@ -30,7 +30,7 @@ function postMessage(days, target) {
         "token": SLACK_TOKEN,
         "text" : target +"まで、あと"+ days +"日のお知らせ！",   //botの発言内容
         "username" : "カウントダウンbot",
-        "iconEmoji" : ":date:",
+        "icon_emoji" : ":date:",
         "channel" : "bot"
     };
 
